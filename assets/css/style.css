@@ -1,13 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -216,7 +207,11 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
-
+@media only screen and (max-device-width: 905px) {
+  #hero {
+    background-image: url('../img/small.jpg');
+  }
+}
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
